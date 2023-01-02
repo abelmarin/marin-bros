@@ -47,12 +47,9 @@ export default function Layout({ children }) {
         </header>
         {children}
         <footer className="flex flex-wrap">
-          <Link
-            href="/"
-            className="md:basis-1/3 inline-grid justify-center items-center bg-brown-dark text-brown-light text-2xl lg:text-3xl w-full py-12 font-serif"
-          >
-            Marin Brothers Inc.
-          </Link>
+          <div className="md:basis-1/3 inline-grid justify-center items-center bg-brown-dark text-brown-light text-2xl lg:text-3xl w-full py-12 font-serif">
+            <Link href="/">Marin Brothers Inc.</Link>
+          </div>
           <div className="md:basis-2/3 bg-brown text-white text-lg w-full text-center md:text-left py-10 md:pl-8">
             <p className="pb-2">
               Phone:{" "}
