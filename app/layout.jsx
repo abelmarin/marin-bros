@@ -9,7 +9,8 @@ import { usePathname } from "next/navigation"
 export default function Layout({ children }) {
   const pathname = usePathname().replace("/", "")
 
-  const navLink = "text-brown text-xl px-4 hover:bg-brown-dark hover:text-white"
+  const navLink =
+    "text-brown text-xl px-4 hover:bg-brown hover:text-white uppercase h-full py-4 place-items-center grid"
 
   return (
     <html lang="en">
@@ -28,8 +29,8 @@ export default function Layout({ children }) {
       <body>
         <header className="shadow-header">
           <div className="flex flex-col md:flex-row justify-center w-full max-w-screen-2xl mx-auto px-8">
-            <Link href="/" title="Home" className=" my-4 mx-auto md:ml-0 md:mr-auto">
-              <Image src={logo} alt="Marin Bros Logo" className="max-h-24 w-min" />
+            <Link href="/" title="Home" className="my-4 mx-auto md:ml-0 md:mr-auto">
+              <Image src={logo} alt="Marin Bros Logo" className="max-h-40 md:max-h-20 w-min" />
             </Link>
             <nav className="flex justify-center items-center">
               <Link href="/" title="Home" className={navLink}>
