@@ -1,7 +1,7 @@
 import Link from "next/link"
 
 export default function Contact() {
-  const infoStyles = "text-center flex flex-col pb-6 font-lg"
+  const infoStyles = "text-center flex flex-col pb-6 text-xl"
 
   return (
     <div className="px-4">
