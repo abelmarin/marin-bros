@@ -1,6 +1,6 @@
 "use client"
 
-import "app/globals.css"
+import "app/global.css"
 import Link from "next/link"
 import Image from "next/image"
 import logo from "public/assets/logo.png"
@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   const pathname = usePathname().replace("/", "")
 
   const navLink =
-    "text-brown text-xl px-4 hover:bg-brown hover:text-white uppercase h-full py-4 place-items-center grid"
+    "text-brown text-xl px-5 hover:bg-brown hover:text-white uppercase h-full py-4 place-items-center grid font-serif"
 
   return (
     <html lang="en">
