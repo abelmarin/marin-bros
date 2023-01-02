@@ -1,5 +1,4 @@
 import Image from "next/image"
-import cn from "classnames"
 import OverheadCostco from "public/assets/overhead-costco-1.jpg"
 import SideCostco from "public/assets/sideview-costco.jpg"
 import Target from "public/assets/target.jpg"
