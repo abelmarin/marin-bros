@@ -40,7 +40,7 @@ export default function Contact() {
           </p>
         </div>
       </div>
-      <div className="map">
+      <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.85700339359!2d-88.4875337!3d41.658831500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880ec1e50b18242d%3A0x4fbd16359e6a90e3!2s1951%20Rena%20Ln%2C%20Yorkville%2C%20IL%2060560!5e0!3m2!1sen!2sus!4v1672636678703!5m2!1sen!2sus"
           width="600"
@@ -48,7 +48,7 @@ export default function Contact() {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          className="w-full max-w-2xl h-[400px] sm:h-[500px] mx-auto mb-12 border-none border-r"
+          className="w-full max-w-2xl h-[400px] sm:h-[500px] mx-auto mb-12 border-none"
         />
       </div>
     </div>

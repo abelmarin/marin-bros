@@ -5,7 +5,7 @@ import Target from "public/assets/target.jpg"
 
 export default function About() {
   const cardStyles =
-    "max-w-5xl grid lg:grid-cols-2 gap-4 items-center p-6 mb-12 mx-auto bg-brown text-white lg:rounded-xl text-lg place-items-center"
+    "max-w-5xl grid lg:grid-cols-2 gap-4 items-center p-6 mb-12 mx-auto bg-brown text-white text-lg place-items-center"
 
   const imageStyles = "w-full"
 
