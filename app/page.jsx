@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Image */}
       <div
         style={{
-          backgroundImage: "url('../public/assets/overhead-costco-2.jpg')",
+          backgroundImage: `url(${BG})`,
         }}
         className="bg-homeHero bg-fixed w-full h-[450px]"
       >
@@ -28,12 +28,15 @@ export default function Home() {
       </p>
       <div className="pb-8 lg:pb-12">
         <iframe
+          width="560"
+          height="315"
           src="https://www.youtube.com/embed/VVt-5krsvhs"
+          title="YouTube video player"
           frameborder="0"
-          title="Overhead of Costco"
-          allowFullScreen
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
           className="mx-auto w-full max-w-screen-lg px-4 h-auto aspect-video"
-        />
+        ></iframe>
       </div>
     </div>
   )

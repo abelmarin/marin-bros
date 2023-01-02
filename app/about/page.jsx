@@ -5,10 +5,12 @@ import SideCostco from "public/assets/sideview-costco.jpg"
 import Target from "public/assets/target.jpg"
 
 export default function About() {
+  const cardStyles = "max-w-3xl flex mx-auto bg-brown text-white"
+
   return (
     <div>
-      <h1 className="text-center text-brown py-10 text-3xl">About Us</h1>
-      <div className="max-w-3xl flex mx-auto bg-brown text-white">
+      <h1 className="text-center text-brown font-serif py-10 text-4xl">About Us</h1>
+      <div className={cardStyles}>
         <p>
           Marin Brothers, Inc. is a family run company founded by Abel Marin in 2006. Abel is a professional carpenter
           with over twenty years experience. At the beginning of his career, he worked mostly in the residential
@@ -19,7 +21,7 @@ export default function About() {
         </p>
         <Image src={OverheadCostco} alt="Overhead of costco under construction" width={500} height={300} />
       </div>
-      <div className="max-w-3xl flex mx-auto bg-brown text-white">
+      <div className={cardStyles}>
         <Image src={SideCostco} alt="Side view of costco" width={500} height={300} />
         <p>
           Abel now owns and runs a highly successful subcontracting business, working under the top general contractors
@@ -32,7 +34,7 @@ export default function About() {
           DHL, and Pfizer.
         </p>
       </div>
-      <div className="max-w-3xl flex mx-auto bg-brown text-white">
+      <div className={cardStyles}>
         <div>
           <p className="pb-2">
             Since the beginning, Marin Brothers, Inc. has stood for not only skilled craftsmanship and high quality

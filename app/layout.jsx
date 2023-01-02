@@ -26,25 +26,27 @@ export default function Layout({ children }) {
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body>
-        <header className="flex flex-col md:flex-row justify-center w-full max-w-screen-2xl mx-auto px-8">
-          <Link href="/" title="Home" className=" my-4 mx-auto md:ml-0 md:mr-auto">
-            <Image src={logo} alt="Marin Bros Logo" className="max-h-24 w-min" />
-          </Link>
-          <nav className="flex justify-center items-center">
-            <Link href="/" title="Home" className={navLink}>
-              Home
+        <header className="shadow-header">
+          <div className="flex flex-col md:flex-row justify-center w-full max-w-screen-2xl mx-auto px-8">
+            <Link href="/" title="Home" className=" my-4 mx-auto md:ml-0 md:mr-auto">
+              <Image src={logo} alt="Marin Bros Logo" className="max-h-24 w-min" />
             </Link>
-            <Link href="/about" title="About Us" className={navLink}>
-              About
-            </Link>
-            <Link href="/contact" title="Contact" className={navLink}>
-              Contact
-            </Link>
-          </nav>
+            <nav className="flex justify-center items-center">
+              <Link href="/" title="Home" className={navLink}>
+                Home
+              </Link>
+              <Link href="/about" title="About Us" className={navLink}>
+                About
+              </Link>
+              <Link href="/contact" title="Contact" className={navLink}>
+                Contact
+              </Link>
+            </nav>
+          </div>
         </header>
         {children}
         <footer className="flex flex-wrap">
-          <div className="md:basis-1/3 inline-grid justify-center items-center bg-brown-dark text-brown-light text-2xl w-full py-12">
+          <div className="md:basis-1/3 inline-grid justify-center items-center bg-brown-dark text-brown-light text-2xl lg:text-3xl w-full py-12 font-serif">
             Marin Brothers Inc.
           </div>
           <div className="md:basis-2/3 bg-brown text-white text-lg w-full text-center md:text-left py-10 md:pl-8">
@@ -56,7 +58,7 @@ export default function Layout({ children }) {
             </p>
             <p>
               Email:{" "}
-              <Link href="mailto:marinbrothersinc@gmail.com" target="_blank" className="hover:underline">
+              <Link href="mailto:marinbrothersinc@gmail.com" className="hover:underline">
                 marinbrothersinc@gmail.com
               </Link>
             </p>
