@@ -5,7 +5,7 @@ export default function Contact() {
 
   return (
     <div className="px-4">
-      <h1 className="text-center text-brown font-serif py-10 text-4xl">Contact Us!</h1>
+      <h1>Contact Us!</h1>
       <div className="font-sans max-w-2xl text-xl text-white bg-brown mx-auto py-8 px-5 mb-12">
         <h2 className="text-center pb-2 text-4xl">Abel Marin</h2>
         <p className="text-center pb-6 text-2xl">Owner, President</p>

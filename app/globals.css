@@ -14,3 +14,19 @@ footer {
   top: 100vh;
 }
 /* End sticky footer */
+
+/* Text styles */
+h1 {
+  @apply text-center text-brown font-serif font-medium py-10 text-4xl;
+}
+/* End Text styles */
+
+/* Background images */
+.homeHero {
+  background-image: url("../public/assets/overhead-costco-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* End background images */
