@@ -1,8 +1,6 @@
-const defaultTheme = require("tailwindcss/defaultTheme")
-
 module.exports = {
   mode: "jit",
-  content: ["./components/**/*.{js,ts,jsx,tsx}", "./app/**/*.{js,ts,jsx,tsx}"],
+  content: ["./components/**/*.{js,ts,jsx,tsx}", "./pages/**/*.{js,ts,jsx,tsx}"],
   plugins: [require("@tailwindcss/typography")],
   theme: {
     extend: {
@@ -16,6 +14,9 @@ module.exports = {
       },
       boxShadow: {
         header: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+      },
+      backgroundImage: {
+        homeHero: "url(public/assets/overhead-costco-2.jpg)",
       },
     },
   },
