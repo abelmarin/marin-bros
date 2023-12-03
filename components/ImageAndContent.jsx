@@ -9,7 +9,7 @@ export default function ImageAndContent({ children, image, orientation }) {
         {
           "md:flex-row": orientation === "content-first",
           "md:flex-row-reverse": orientation === "image-first",
-        }
+        },
       )}
     >
       <div className="basis-1/2">{children}</div>

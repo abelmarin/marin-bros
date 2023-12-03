@@ -14,7 +14,7 @@ export default function about() {
       <main>
         <h1 className="text-center text-brown font-serif py-10 text-4xl">About Us</h1>
         <ImageAndContent
-          image={{ filename: "/assets/overhead-costco-1.jpg", alt: "Overhead of costco under construction" }}
+          image={{ filename: "/assets/overhead-costco-1.webp", alt: "Overhead of costco under construction" }}
           orientation="content-first"
         >
           <p>
@@ -28,7 +28,7 @@ export default function about() {
           </p>
         </ImageAndContent>
         <ImageAndContent
-          image={{ filename: "/assets/sideview-costco.jpg", alt: "Side view of costco" }}
+          image={{ filename: "/assets/sideview-costco.webp", alt: "Side view of costco" }}
           orientation="image-first"
         >
           <p>

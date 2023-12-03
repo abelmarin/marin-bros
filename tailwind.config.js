@@ -16,7 +16,7 @@ module.exports = {
         header: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       },
       backgroundImage: {
-        homeHero: "url(public/assets/overhead-costco-2.jpg)",
+        homeHero: "url(public/assets/overhead-costco-2.webp)",
       },
     },
   },
